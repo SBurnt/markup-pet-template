@@ -1,0 +1,184 @@
+.container {
+	margin: 0 auto;
+	width: 700px;
+}
+
+header {
+	background-color: #7a2e40;
+	height: 39px;
+	border-bottom: 1px solid #ffffff;
+	-webkit-box-shadow: 0px 12px 20px 0px rgba(217, 218, 220, 1);
+	-moz-box-shadow: 0px 12px 20px 0px rgba(217, 218, 220, 1);
+	box-shadow: 0px 9px 20px rgba(217, 218, 220, 0.7);
+}
+
+header nav {
+	float: right;
+}
+
+header li {
+	list-style: none;
+	height: 39px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+header li a {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Arial;
+	color: #f6dde3;
+	display: block;
+	text-align: center;
+	line-height: 39px;
+	/* vertical-align: middle; */
+}
+
+header li a:hover {
+	background-color: #561826;
+}
+
+.content {
+	width: 442px;
+	float: left;
+	padding-top: 26px;
+}
+
+.logo img {
+	float: left;
+	padding-left: 14px;
+	padding-right: 11px;
+}
+
+.logo p {
+	color: #818282;
+}
+
+.paragraph_one {
+	background-color: #f9f9f9;
+	padding: 17px 25px 25px 15px;
+	border: 1px solid #f0e9eb;
+}
+
+.paragraph_two {
+	padding: 26px 0px 12px 0px;
+}
+
+.paragraph_two img {
+	float: left;
+	padding: 4px;
+	border: 1px solid #f5f0f0;
+	margin-right: 20px;
+}
+
+h1 {
+	padding-top: 5px;
+	font: 18px 'Georgia Regular';
+	color: #fa7393;
+}
+
+h1 span {
+	color: #7a2e40;
+}
+
+main div div p {
+	padding-bottom: 38px;
+}
+
+h2 {
+	font: bold 14px Arial;
+	color: #7a2e40;
+	padding-bottom: 6px;
+	border-bottom: solid 1px #e3dfe0;
+	margin-bottom: 11px;
+}
+
+h3 {
+	font: bold 13px Arial;
+	color: #7a2e40;
+	padding-bottom: 5px;
+}
+
+p {
+	font: 12px Arial;
+	color: #2a3845;
+	line-height: 1.5;
+	padding-bottom: 16px;
+}
+
+.paragraph_one li {
+	padding-left: 23px;
+	list-style-type: none;
+	list-style-position: inside;
+	background: url(../images/marker-square.jpg) no-repeat 2px 6px;
+}
+
+.paragraph_one>ul>li>span {
+	color: #2a3845;
+	font: 12px 'Arial Regular';
+	line-height: 1.5;
+}
+
+aside {
+	padding-top: 26px;
+	float: right;
+	width: 258px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-left: 46px;
+}
+
+aside section {
+	text-align: left;
+}
+
+.shadow-under-lady {
+	margin-top: -3px;
+	height: 25px;
+	border-top: 1px solid #fff;
+	/*background: #d9dadc; /* Old Browsers */
+	/*background: -webkit-radial-gradient(top,#d9dadc,#ffffff); /*Safari 5.1-6*/
+	/*background: -o-radial-gradient(top,#d9dadc,#ffffff); /*Opera 11.1-12*/
+	/*background: -moz-radial-gradient(top,#d9dadc,#ffffff); /*Fx 3.6-15*/
+	background-image: radial-gradient(ellipse farthest-corner at center top, rgb(224, 226, 227) 0%, rgb(255, 255, 255) 70%);
+}
+
+aside section ul {
+	padding: 12px 25px 12px 15px;
+	background-color: #f9f9f9;
+	border: 1px solid #f0e9eb;
+}
+
+aside section ul li {
+	padding-left: 23px;
+	list-style-type: none;
+	background: url(../images/marker-paw.png) no-repeat 0px 6px;
+	list-style-position: inside;
+}
+
+aside li a {
+	list-style-position: inside;
+	font: 12px Arial;
+	color: #a43b55;
+	line-height: 2;
+	text-align: left;
+}
+
+footer {
+	clear: both;
+	background-color: #f9f9f9;
+	height: 58px;
+	padding-top: 9px;
+	border-top: solid 1px #f0e9eb;
+}
+
+footer p {
+	padding-bottom: 0px;
+}
+
+footer p a {
+	font: 12px Arial;
+	color: #a43b55;
+	line-height: 2;
+	text-align: left;
+}
